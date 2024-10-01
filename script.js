@@ -9,3 +9,9 @@ image.width = "250";
 let ltBlueSpans = document.getElementsByClassName (" light-blue");
 let medBlueSpans = document.getElementsByClassName("med-blue");
 console.log(ltBlueSpans);
+for (let span of ltBlueSpans){
+    span.style.color = "7C9EA6";
+}
+for (let span of medBlueSpans){
+    span.style.color = "#3C5E73";
+}
