@@ -1,0 +1,1 @@
+document.getElementById("firstPara").innerHTML += "<span class ='tan'>This is new tan text.</span>"
