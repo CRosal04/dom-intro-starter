@@ -24,7 +24,7 @@ let svgs = document.querySelectorAll("#svgs svg");
  }
 
  /// bold selector
- let bOld= document.querySelector("h2");
+ let bOld= document.querySelector("bold");
  for(let span of bOld){
     span.style.color = "7C9EA6";
  }
