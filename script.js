@@ -5,3 +5,7 @@ let images = document.getElementsByTagName ("img");
 for( let image of images){
 image.width = "250";
 }
+// selecting by class name
+let ltBlueSpans = document.getElementsByClassName (" light-blue");
+let medBlueSpans = document.getElementsByClassName("med-blue");
+console.log(ltBlueSpans);
