@@ -22,3 +22,4 @@ let svgs = document.querySelectorAll("#svgs svg");
  for(let i = 0; i< 5; i++){
      svgs[i].style.stroke = colors[i];
  }
+ 
