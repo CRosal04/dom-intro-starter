@@ -15,3 +15,10 @@ for (let span of ltBlueSpans){
 for (let span of medBlueSpans){
     span.style.color = "#3C5E73";
 }
+//select many with css selector
+let  colors =["#283040","#3C5E73","#7C9EA6","#D9BCA3","#F2DCC9"];
+
+let svgs = document.querySelectorAll("#svgs svg");
+ for(let i = 0; i< 5; i++){
+     svgs[i].style.stroke = color[i];
+ }
