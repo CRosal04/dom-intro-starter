@@ -22,4 +22,9 @@ let svgs = document.querySelectorAll("#svgs svg");
  for(let i = 0; i< 5; i++){
      svgs[i].style.stroke = colors[i];
  }
- 
+
+ /// bold selector
+ let bOld= document.querySelector("h2");
+ for(let span of bOld){
+    span.style.color = "7C9EA6";
+ }
