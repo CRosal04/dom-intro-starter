@@ -22,12 +22,18 @@ let svgs = document.querySelectorAll("#svgs svg");
  for(let i = 0; i< 5; i++){
      svgs[i].style.stroke = colors[i];
  }
+
+ //change the span 
+ document.querySelector("#query .bold").style.color = "#7c9ea9";
 let list = document.querySelector("#change .content_list");
 console.log(list);
 //replace text un first li
 list.children[0].textContent = "this is new list item text";
 //add name to third li
 list.children[2].innerHTML += "<strong> Christopher Rosales</strong>";
+
+///remove hidden attribute
+document.querySelector("#remove a").removeAttribute("hidden");
  /// bold selector
  let bOld= document.querySelector("bold");
  for(let span of bOld){
